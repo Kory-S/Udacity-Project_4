@@ -1,0 +1,20 @@
+@import url(navbar.css);
+@import url(mainContent.css);
+@import url(footer.css);
+
+* {
+    padding: 0;
+    margin: 0;   
+}
+
+a {
+    text-decoration: none;
+}
+
+.active_nav {
+    background-color: #90ee90;
+}
+
+.active_section {
+    background: linear-gradient(180deg, #71bb71 0%, #11111150 100%);
+}
